@@ -31,3 +31,19 @@ if not has_number:
     password = password[:-1] + random.choice(numbers)
 
 print("Generated Password:", password)
+
+# practice using range function
+for unit in range(1, 12) :
+  print(unit)
+  
+# or else the "Fizz Buzz Game," run through a range and test for conditions
+for number in range (1, 101) :
+  if number % 3 == 0 and number % 5 == 0 :
+    print("FizzBuzz")
+  elif number % 3 == 0  :
+    print("Fizz")
+  elif number % 5 == 0 :
+    print("Buzz")
+  else :
+    print(number)
+  
