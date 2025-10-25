@@ -32,18 +32,38 @@ if not has_number:
 
 print("Generated Password:", password)
 
-# practice using range function
-for unit in range(1, 12) :
-  print(unit)
-  
-# or else the "Fizz Buzz Game," run through a range and test for conditions
-for number in range (1, 101) :
-  if number % 3 == 0 and number % 5 == 0 :
-    print("FizzBuzz")
-  elif number % 3 == 0  :
-    print("Fizz")
-  elif number % 5 == 0 :
-    print("Buzz")
-  else :
-    print(number)
+# # practice using range function
+# for unit in range(1, 12) :
+#   print(unit)
+#   
+# # or else the "Fizz Buzz Game," run through a range and test for conditions
+# for number in range (1, 101) :
+#   if number % 3 == 0 and number % 5 == 0 :
+#     print("FizzBuzz")
+#   elif number % 3 == 0  :
+#     print("Fizz")
+#   elif number % 5 == 0 :
+#     print("Buzz")
+#   else :
+#     print(number)
+
+# "Hard" Password
+import random
+import string
+
+def generate_password():
+    letters = random.choices(string.ascii_letters, k=2)
+    digits = random.choices(string.digits, k=2)
+    special_chars = random.choices('!@#$%^&*()-_=+[]{}|;:,.<>?', k=2)
+    
+    password_list = letters + digits + special_chars
+    random.shuffle(password_list)
+    
+    password = ''.join(password_list)
+    return password
+
+# Generate and print the password
+print("Generated Password:", generate_password())
+
+
   
