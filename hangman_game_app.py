@@ -1,6 +1,6 @@
 import random
 
-# Word list for the game
+# Word list to start the game; there are mods with longer lists you can use
 word_list = ["python", "hangman", "challenge", "program", "ascii"]
 
 # Hangman ASCII art for each life left (from 6 down to 0)
