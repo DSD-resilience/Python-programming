@@ -3,6 +3,7 @@ import pandas as pd
 import re
 from datetime import datetime
 
+# create a function to normalize the date
 def normalize_date(date_str):
     """Convert multiple date formats into YYYY-MM-DD."""
     if not date_str:
