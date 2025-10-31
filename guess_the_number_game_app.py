@@ -1,3 +1,5 @@
+"""" This shows how to properly use While loops """"
+
 import random
 
 def print_ascii_art():
