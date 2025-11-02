@@ -1,3 +1,4 @@
+# Is it Prime?
 def is_prime(n):
     if n <= 1:
         return False  # 0 and 1 are not prime numbers
