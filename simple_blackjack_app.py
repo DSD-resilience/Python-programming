@@ -1,6 +1,6 @@
 import random
 
-  """"No aces, no betting.""""
+  """"No aces, no betting, consider adding these.""""
 
 def draw_card():
     """Returns a random card value between 1 and 11."""
