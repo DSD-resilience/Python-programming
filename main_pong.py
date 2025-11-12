@@ -15,7 +15,7 @@ l_paddle = Paddle((-350, 0))
 ball = Ball()
 scoreboard = Scoreboard()
 
-# get the paddles to work on keystrokes
+# get the paddles to work on specific keystrokes
 screen.listen()
 screen.onkey(r_paddle.go_up, "Up")
 screen.onkey(r_paddle.go_down, "Down")
