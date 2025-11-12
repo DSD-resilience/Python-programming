@@ -6,6 +6,7 @@ weight = 84
 # Calculate the bmi using weight and height.
 bmi = (weight/(height)**2)
 
+# now print your bmi
 print(bmi)
 
 if bmi >= 25 :
