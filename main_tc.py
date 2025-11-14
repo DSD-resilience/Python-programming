@@ -1,16 +1,16 @@
 import time
 from turtle import Screen
-from player import Player
-from car_manager import CarManager
-from scoreboard import Scoreboard
+from player_tc import Player
+from car_manager_tc import CarManager
+from scoreboard_tc import Scoreboard
 
 screen = Screen()
 screen.setup(width=600, height=600)
 screen.tracer(0)
 
-player = Player()
-car_manager = CarManager()
-scoreboard = Scoreboard()
+player_tc = Player()
+car_manager_tc = CarManager()
+scoreboard_tc = Scoreboard()
 
 screen.listen()
 screen.onkey(player.go_up, "Up")
