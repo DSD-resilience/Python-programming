@@ -1,7 +1,7 @@
 import requests
 # quizzler game
 parameters = {
-    "amount": 10,
+    "amount": 12,
     "type": "boolean",
 }
 
