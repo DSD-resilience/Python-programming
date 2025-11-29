@@ -1,2 +1,5 @@
 #workout tracking in Google Sheets
-API =
+API_ID= app_d5fe62aa65b74b3d86c5cf6c
+API_KEY= nix_live_32zPV0GvoajSHIWWvYsPao4YlkVlzS0D
+# app_d5fe62aa65b74b3d86c5cf6c
+# nix_live_32zPV0GvoajSHIWWvYsPao4YlkVlzS0
