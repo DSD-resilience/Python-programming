@@ -6,7 +6,7 @@
 import requests
 
 GENDER = 'male'
-WEIGHT_KG = 89
+WEIGHT_KG = 88
 HEIGHT_CM = 170
 AGE = 56
 
