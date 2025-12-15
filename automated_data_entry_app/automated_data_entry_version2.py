@@ -52,7 +52,7 @@ chrome_options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(options=chrome_options)
 
 for n in range(len(all_links)):
-    # Link to Google From
+    # Link to Google Forms
     driver.get("https://docs.google.com/forms/d/e/1FAIpQLSfUdqMd-YHYWVf5r2iyiZ0bSt5cY3j-QxOyuxxlyA2jKt8VEQ/viewform?usp=header")
     time.sleep(2)
 
