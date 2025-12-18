@@ -1,5 +1,5 @@
 from flask import Flask
-
+# module flask enables framework
 app = Flask(__name__)
 
 @app.route('/')
