@@ -1,5 +1,5 @@
 from flask import Flask
-
+# standard framework that works similar to a library
 app = Flask(__name__)
 
 
