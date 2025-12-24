@@ -1,6 +1,7 @@
 from flask import Flask
 
 app = Flask(__name__)
+# added in decorator
 
 @app.route('/')
 def home():
